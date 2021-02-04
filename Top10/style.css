@@ -1,0 +1,129 @@
+
+/* STYLE GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Yusei+Magic&display=swap');
+
+body{
+  margin: 0px;
+  background-image: url('https://i.pinimg.com/originals/57/08/ea/5708ea45816219ff21a3e47d716369cc.jpg');
+  background-repeat: repeat;
+  font-family: 'Roboto'
+}
+
+h1, h2 {
+  font-family: 'Raleway'
+}
+
+.container{
+  margin: 35px 15%;
+  padding: 15px 5%;
+  background-color: white;
+  background-size: 50px 20%;
+  text-align: justify;
+  box-shadow: 0px 0px 4px rgb(209,192,160, 0.6);
+ } 
+ 
+img{
+  max-width: 100%
+ }
+
+
+/* STYLE DE DISPOSITION */
+.d-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.align-items-center{
+  align-items: center
+}
+
+.imgl {
+  float: left;
+  margin: 0 15px 5px 0;
+}
+
+.img2 {
+  float: right;
+  margin: 0 0px 5px 15px;
+}
+
+.container p {
+  padding: 0 0 15px 0
+}
+
+.illustration {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:45px;
+  margin-bottom: 10px;
+  max-width: 500px
+}
+
+/* AUTRE */
+
+
+.banner{
+  border: 1px solid;
+  background-color: grey;
+  height: 50vh;
+  background-image: url('https://images7.alphacoders.com/325/thumb-1920-325547.jpg');
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 0px #8ccdce;
+}
+
+.anime {
+  font-size: 1.5em;
+  position: relative;
+  animation: glow 5000ms linear,
+  move 2000ms;
+  animation-duration: 5s;
+}
+
+@keyframes glow {
+  0% {
+   text-shadow: 0px 0px 8px #fff;
+  }
+  100% {
+    text-shadow: 0 0 3px #fff;
+  }
+}
+
+@keyframes move {
+  0% {left: 100%}
+  50% {left: 0%}
+}
+
+#nb {
+  text-align: right;
+  font-style: italic;
+}
+
+.footer {
+  background-color: rgb(209,192,160);
+  padding: 30px 30px;
+  color: #968580;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #968580;
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  
+  .container{
+    padding: 40px 20px;
+  }
+}
